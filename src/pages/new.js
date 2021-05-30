@@ -1,7 +1,7 @@
-import Form from '../components/Form'
+import Form from '../components/Form';
 
-const NewPet = () => {
-  const petForm = {
+const NewMedicalProfile = () => {
+  const medicalProfileForm = {
     name: '',
     owner_name: '',
     species: '',
@@ -11,9 +11,9 @@ const NewPet = () => {
     image_url: '',
     likes: [],
     dislikes: [],
-  }
+  };
 
-  return <Form formId="add-pet-form" petForm={petForm} />
-}
+  return <Form formId="add-pet-form" medicalProfileForm={medicalProfileForm} />;
+};
 
-export default NewPet
+export default NewMedicalProfile;
