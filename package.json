@@ -7,11 +7,23 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.0.13",
+    "@chakra-ui/react": "^1.6.3",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "formik": "^2.2.8",
+    "framer-motion": "^4.1.17",
     "mongoose": "^5.9.13",
     "next": "latest",
+    "node-geocoder": "^3.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "swr": "0.2.2"
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "swr": "0.2.2",
+    "yup": "^0.32.9"
   },
   "license": "MIT"
 }

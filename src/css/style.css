@@ -9,9 +9,11 @@
 .top-bar {
   width: 100%;
   margin-top: 0;
-  position: relative;
   height: 80px;
   text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #title {
   position: absolute;
@@ -22,7 +24,9 @@
 }
 .nav {
   height: 100%;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav a {
   margin: 0 20px;
